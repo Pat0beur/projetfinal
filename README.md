@@ -1,26 +1,6 @@
-<<<<<<< HEAD
-# projet_graphique_planete
-=======
-# Skeleton code for OpenGL using C++
+C'est une représentation du système solaire avec les planètes en orbite. 
 
-This is the skeleton code for creating graphics applications using OpenGL and C++.
+Il y a le point de vue extérieur où on voit toutes les planètes sur différents orbtites autour du soleil, et le point de vue depuis le soleil où on voit les planètes passer 1 par 1.
+Il y a une source de lumière au niveau du soleil qui éclaire les planètes, le tout dans une skybox
 
-# Installation
-
-You would need CMake(to build our project) which can be downloaded from [here](https://cmake.org/download/).
-
-# Setup
-
-After cloning this repo, you also need to load the submodules GLEW, GLFW and GLM using the following command.
-
-    git submodule update --init --recursive
-
-
-## Run the Application
-
-To launch the window, simply run:
-
-    cmake .
-    make
-    ./opengl_program
->>>>>>> 27df6ed (first commit)
+En appuyant sur entrée, vous pouvez alterner entre le vue extérieur, et la vue depuis le soleil.
